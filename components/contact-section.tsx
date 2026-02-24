@@ -1,5 +1,5 @@
 import { SectionHeading } from "@/components/about-section"
-import { Mail, Linkedin, Github, MapPin, FileText } from "lucide-react"
+import { Mail, Linkedin, Github, MapPin, FileText, Phone } from "lucide-react"
 
 export function ContactSection() {
   return (
@@ -8,10 +8,11 @@ export function ContactSection() {
         <SectionHeading number="06" title="Get In Touch" />
 
         <p className="mb-8 text-balance leading-relaxed text-muted-foreground">
-          I am currently seeking full-time IT Support Analyst, Desktop Support Engineer,
-          Technical Support Specialist, or Help Desk positions in the Greater Toronto
-          Area, Guelph, Kitchener-Waterloo, or remote opportunities within Ontario.
-          Whether you have a question or just want to connect, feel free to reach out.
+          I am currently seeking full-time IT Service Desk Analyst, Desktop Support
+          Specialist, Technical Support Analyst, or Help Desk positions in the Greater
+          Toronto Area, Guelph, Kitchener-Waterloo, or remote opportunities within
+          Ontario. Whether you have a question or just want to connect, feel free to
+          reach out.
         </p>
 
         <a
@@ -30,10 +31,16 @@ export function ContactSection() {
             href="mailto:bhavsardeep14@gmail.com"
           />
           <ContactCard
+            icon={<Phone className="h-5 w-5 text-primary" />}
+            label="Phone"
+            value="(548) 922-4300"
+            href="tel:+15489224300"
+          />
+          <ContactCard
             icon={<Linkedin className="h-5 w-5 text-primary" />}
             label="LinkedIn"
             value="linkedin.com/in/deep-bhavsar"
-            href="https://www.linkedin.com/in/deep-bhavsar/"
+            href="https://www.linkedin.com/in/deep-bhavsar-217107192/"
           />
           <ContactCard
             icon={<Github className="h-5 w-5 text-primary" />}
@@ -44,7 +51,7 @@ export function ContactSection() {
           <ContactCard
             icon={<MapPin className="h-5 w-5 text-primary" />}
             label="Location"
-            value="Ontario, Canada"
+            value="Toronto, Ontario, Canada"
             href={null}
           />
         </div>

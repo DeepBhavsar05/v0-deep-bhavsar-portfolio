@@ -9,21 +9,24 @@ export function AboutSection() {
         <div className="grid gap-12 md:grid-cols-5">
           <div className="space-y-6 md:col-span-3">
             <p className="leading-relaxed text-muted-foreground">
-              I am an ITIL v4 & Microsoft 365 certified IT Support professional with 3+
-              years of hands-on experience delivering exceptional technical support in
-              enterprise and higher education environments. I solve complex technical
-              problems and keep users productive.
+              I am an ITIL v4 Foundation & MS-900 certified IT Service Desk Analyst with 3+
+              years of Tier 1-2 support experience delivering reliable end-user, application,
+              and endpoint support across Windows, macOS, and mobile environments. I have a
+              strong background in IT Service Management (ITSM), including incident, request,
+              and change management.
             </p>
             <p className="leading-relaxed text-muted-foreground">
-              From troubleshooting Active Directory authentication issues to resolving
-              network connectivity problems, I thrive on the challenge of diagnosing root
-              causes and implementing lasting solutions for faster and efficient workflows.
+              From troubleshooting Active Directory and Azure AD authentication issues to
+              resolving network connectivity problems with DNS, DHCP, and VPN, I thrive on
+              diagnosing root causes and implementing lasting solutions. I maintain high
+              customer satisfaction (98-99% CSAT) while consistently meeting SLA/OLA targets.
             </p>
             <p className="leading-relaxed text-muted-foreground">
               I hold a Master{"'"}s degree in Computer Engineering from the{" "}
-              <span className="text-primary">University of Guelph</span> and a Bachelor
-              {"'"}s in Information Technology from SVIT, Vasad. I am currently pursuing
-              CompTIA A+ certification to complement my existing credentials.
+              <span className="text-primary">University of Guelph</span> (87/100 GPA) and a
+              Bachelor{"'"}s in Information Technology from Gujarat Technological University.
+              I am currently pursuing CompTIA A+ certification to complement my existing
+              credentials.
             </p>
           </div>
 
@@ -31,7 +34,7 @@ export function AboutSection() {
             <InfoCard
               icon={<MapPin className="h-4 w-4 text-primary" />}
               label="Location"
-              value="Ontario, Canada"
+              value="Toronto, Ontario, Canada"
             />
             <InfoCard
               icon={<GraduationCap className="h-4 w-4 text-primary" />}

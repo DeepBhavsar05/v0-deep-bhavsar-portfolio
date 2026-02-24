@@ -1,8 +1,8 @@
 const stats = [
   { value: "3+", label: "Years Experience" },
-  { value: "98%", label: "Customer Satisfaction" },
+  { value: "98-99%", label: "Customer Satisfaction" },
   { value: "150+", label: "Monthly Tickets" },
-  { value: "300+", label: "Endpoints Managed" },
+  { value: "500+", label: "Enterprise Users Supported" },
 ]
 
 export function StatsBar() {

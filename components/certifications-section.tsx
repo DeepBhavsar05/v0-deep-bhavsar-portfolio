@@ -1,24 +1,13 @@
 import { SectionHeading } from "@/components/about-section"
-import { Award, ExternalLink } from "lucide-react"
+import { Award } from "lucide-react"
 
 const certifications = [
   {
-    name: "Microsoft 365 Certified: Fundamentals (MS-900)",
-    issuer: "Microsoft",
-    date: "January 2026",
-    credentialId: "E7080EF97FF765AE",
-    skills: [
-      "Microsoft 365 Fundamentals",
-      "SaaS",
-      "Cloud Security",
-      "Compliance",
-    ],
-  },
-  {
-    name: "ITIL v4 Foundation",
+    name: "ITIL 4 Foundation Certified",
     issuer: "PeopleCert",
     date: "September 2025",
     credentialId: "GR671809080DB",
+    note: "Knowledge of ISO/IEC 20000",
     skills: [
       "Incident Management",
       "Problem Management",
@@ -28,10 +17,24 @@ const certifications = [
     ],
   },
   {
-    name: "AWS Cloud Practitioner (In Progress)",
+    name: "Microsoft 365 Fundamentals (MS-900)",
+    issuer: "Microsoft",
+    date: "January 2026",
+    credentialId: "E7080EF97FF765AE",
+    note: null,
+    skills: [
+      "Microsoft 365",
+      "SaaS",
+      "Cloud Security",
+      "Compliance",
+    ],
+  },
+  {
+    name: "AWS Solution Architect Training",
     issuer: "Amazon Web Services",
-    date: "Expected 2026",
+    date: "2023",
     credentialId: null,
+    note: null,
     skills: [
       "EC2",
       "S3",
@@ -42,10 +45,24 @@ const certifications = [
     ],
   },
   {
-    name: "CompTIA A+ (In Progress)",
+    name: "Networking Foundation",
+    issuer: "LinkedIn Learning",
+    date: "Completed",
+    credentialId: null,
+    note: null,
+    skills: [
+      "TCP/IP",
+      "DNS",
+      "DHCP",
+      "Network Fundamentals",
+    ],
+  },
+  {
+    name: "CompTIA A+ (Pursuing)",
     issuer: "CompTIA",
     date: "Expected 2026",
     credentialId: null,
+    note: null,
     skills: [
       "Hardware",
       "Software Troubleshooting",
@@ -59,17 +76,17 @@ const certifications = [
 const education = [
   {
     degree: "Master of Engineering - Computer Engineering",
-    institution: "University of Guelph",
+    institution: "University of Guelph, ON, Canada",
     period: "Jan 2024 - Aug 2024",
-    grade: "87%",
+    grade: "87/100 GPA",
     focus: "Artificial Intelligence, IT Service Management",
   },
   {
-    degree: "Bachelor of Engineering - Information Technology",
-    institution: "SVIT, Vasad",
-    period: "2018 - 2022",
-    grade: "8.12 CGPA",
-    focus: "React.js, SQL, Software Development",
+    degree: "Bachelor of Engineering - Information & Technology",
+    institution: "Gujarat Technological University, Gujarat, India",
+    period: "July 2018 - July 2022",
+    grade: "8.12/10 CGPA",
+    focus: "Software Development, Networking, IoT",
   },
 ]
 
@@ -102,6 +119,11 @@ export function CertificationsSection() {
                 {cert.credentialId && (
                   <p className="mt-1 font-mono text-xs text-muted-foreground">
                     ID: {cert.credentialId}
+                  </p>
+                )}
+                {cert.note && (
+                  <p className="mt-1 text-xs text-primary/80">
+                    {cert.note}
                   </p>
                 )}
                 <div className="mt-3 flex flex-wrap gap-1.5">
@@ -138,7 +160,7 @@ export function CertificationsSection() {
               </p>
               <div className="mt-3 flex items-center gap-4">
                 <span className="rounded-full bg-primary/10 px-3 py-1 text-xs font-medium text-primary">
-                  Grade: {edu.grade}
+                  {edu.grade}
                 </span>
                 <span className="text-xs text-muted-foreground">
                   {edu.focus}

@@ -6,7 +6,7 @@ export function Footer() {
       <div className="mx-auto flex max-w-6xl flex-col items-center gap-4">
         <div className="flex items-center gap-6">
           <a
-            href="https://www.linkedin.com/in/deep-bhavsar/"
+            href="https://www.linkedin.com/in/deep-bhavsar-217107192/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground transition-colors hover:text-primary"

@@ -2,7 +2,6 @@
 
 import { useState } from "react"
 import { SectionHeading } from "@/components/about-section"
-import { ExternalLink } from "lucide-react"
 
 const experiences = [
   {
@@ -26,42 +25,39 @@ const experiences = [
     location: "Guelph, Ontario, Canada - Hybrid",
     type: "Internship",
     description: [
-      "Delivered frontline and advanced technical support for students and staff, achieving high customer satisfaction through timely resolution of escalated issues.",
-      "Troubleshot Active Directory, DHCP/DNS, Windows, macOS, and printer/network connectivity issues, reducing downtime and improving service availability.",
-      "Collaborated with IT teams during network outages, reconfiguring services and escalating issues to ensure rapid service restoration.",
-      "Logged and resolved incidents in ServiceNow, performing root cause analysis and creating documentation that reduced repeat issues by 15%.",
-      "Contributed to knowledge base content by documenting new resolutions and improving existing articles, ensuring consistent service delivery.",
+      "Delivered onsite and remote Tier 1-2 support for a large academic environment, resolving hardware, software, AV, and network issues while maintaining 98%+ SLA compliance.",
+      "Managed and prioritized 150+ monthly tickets in ServiceNow, ensuring accurate documentation, ITIL-aligned incident handling, and timely escalation.",
+      "Administered Microsoft 365 and Entra ID (Azure AD), supporting user access, licensing, group membership, MFA setup, and access control for faculty and staff.",
+      "Reduced repeat incidents and resolution time by performing advanced desk-side troubleshooting, root-cause analysis, and collaborating with internal teams on permanent fixes.",
     ],
     skills: [
       "ServiceNow",
       "Active Directory",
+      "Microsoft 365",
+      "Entra ID",
       "DHCP/DNS",
-      "Windows/macOS",
-      "Incident Management",
-      "Knowledge Base",
+      "ITIL",
     ],
   },
   {
     company: "Compucare India Pvt. Ltd.",
-    role: "Desktop & Deployment Support Technician",
+    role: "IT Support Specialist",
     period: "Oct 2022 - Nov 2023",
     location: "Vadodara, Gujarat, India - On-site",
     type: "Full-time",
     description: [
-      "Delivered customer and technical support for enterprise solutions (Industrial Automation, ANDON systems, HRMS, Tempus) through calls, emails, and remote sessions.",
-      "Applied ITIL-based incident management practices to log, prioritize, and resolve customer issues efficiently, ensuring minimal downtime.",
-      "Performed remote troubleshooting of SQL databases, application errors, and configuration issues, improving client satisfaction and response time.",
-      "Assisted in Windows Server administration tasks, including Active Directory user management, permissions, and authentication support.",
-      "Provided basic networking support (IP configuration, connectivity testing, LAN/WAN troubleshooting) to ensure seamless deployment and integration.",
-      "Created and maintained technical documentation and system configuration records for future reference and service improvement.",
+      "Served as first point of contact for 500+ enterprise users, handling high-volume Tier 1-2 support and consistently meeting SLA targets.",
+      "Strengthened service reliability by logging, prioritizing, and escalating incidents in ITSM tools with audit-ready documentation.",
+      "Supported endpoint, identity, and collaboration services including Active Directory, Microsoft 365, onboarding/offboarding, and endpoint security.",
+      "Improved operational consistency by collaborating on root-cause analysis and creating SOPs, documentation, and standardized fix procedures.",
     ],
     skills: [
-      "SQL Troubleshooting",
-      "Windows Server",
       "Active Directory",
-      "ITIL Incident Management",
+      "Microsoft 365",
+      "ITSM",
+      "SQL Troubleshooting",
       "Remote Support",
-      "Technical Documentation",
+      "Documentation",
     ],
   },
   {
@@ -73,7 +69,7 @@ const experiences = [
     description: [
       "Created and managed EC2 instances and VPCs (Virtual Private Clouds) for secure networking.",
       "Designed subnets, route tables, and internet gateways for networking needs.",
-      "Used S3 for object storage and configured bucket policies.",
+      "Used S3 for object storage and configured bucket policies for security.",
       "Managed RDS (Relational Database Service) and NoSQL databases like DynamoDB.",
       "Set up IAM roles, users, and policies for access control.",
     ],
@@ -85,6 +81,20 @@ const experiences = [
       "DynamoDB",
       "IAM",
     ],
+  },
+  {
+    company: "Concentrix India Pvt. Ltd.",
+    role: "IT Helpdesk Technician",
+    period: "Sep 2020 - Jun 2021",
+    location: "Gujarat, India - On-site",
+    type: "Full-time",
+    description: [
+      "Delivered frontline hardware and software support for 35+ daily tickets using JIRA, maintaining 99% customer satisfaction.",
+      "Supported secure access technologies including VPN, MFA, and authentication systems to ensure business continuity.",
+      "Improved Tier 2 efficiency by maintaining detailed incident documentation and knowledge articles in Confluence.",
+      "Supported asset tracking and hardware lifecycle management while developing strong customer-facing communication skills.",
+    ],
+    skills: ["JIRA", "Confluence", "VPN", "MFA", "Hardware Support", "Asset Management"],
   },
   {
     company: "Friendly IT Solution",

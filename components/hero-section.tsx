@@ -4,9 +4,9 @@ import { useEffect, useState } from "react"
 import { ArrowDown, Linkedin, Github, Mail } from "lucide-react"
 
 const titles = [
-  "IT Support Specialist",
+  "IT Service Desk Analyst",
   "Technical Support Analyst",
-  "Service Desk Engineer",
+  "Desktop Support Specialist",
   "Cloud & Systems Support",
 ]
 
@@ -55,9 +55,9 @@ export function HeroSection() {
           {titles[currentTitle]}
         </h2>
         <p className="mx-auto mb-10 max-w-2xl text-balance leading-relaxed text-muted-foreground">
-          ITIL v4 & Microsoft 365 certified IT Support professional with 3+ years of
-          hands-on experience delivering exceptional technical support in enterprise and
-          higher education environments. Based in Canada.
+          ITIL v4 & MS-900 certified IT Service Desk Analyst with 3+ years of Tier 1-2
+          support experience delivering reliable end-user, application, and endpoint support
+          across Windows, macOS, and mobile environments. Based in Toronto, Canada.
         </p>
 
         <div className="mb-12 flex items-center justify-center gap-4">
@@ -77,7 +77,7 @@ export function HeroSection() {
 
         <div className="flex items-center justify-center gap-6">
           <a
-            href="https://www.linkedin.com/in/deep-bhavsar/"
+            href=    "https://www.linkedin.com/in/deep-bhavsar-217107192/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-muted-foreground transition-colors hover:text-primary"

@@ -13,9 +13,9 @@ const _geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Deep Bhavsar | IT Support Specialist & Technical Support Analyst',
+  title: 'Deep Bhavsar | IT Service Desk Analyst & Technical Support',
   description:
-    'ITIL v4 & Microsoft 365 certified IT Support professional with 3+ years of experience. Masters in Computer Engineering from University of Guelph. Seeking IT Support, Desktop Support, and Technical Support roles in Canada.',
+    'ITIL v4 Foundation & MS-900 certified IT Service Desk Analyst with 3+ years of Tier 1-2 support experience. Masters in Computer Engineering from University of Guelph. Seeking IT Support, Desktop Support, and Technical Support roles in Canada.',
   keywords: [
     'Deep Bhavsar',
     'IT Support Specialist',
