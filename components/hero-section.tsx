@@ -109,7 +109,7 @@ export function HeroSection() {
         className="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce text-muted-foreground transition-colors hover:text-primary"
         aria-label="Scroll to about section"
       >
-        <ArrowDown className="h-5 w-5" />
+        <ArrowDown className="h-8 w-8" />
       </a>
     </section>
   )
