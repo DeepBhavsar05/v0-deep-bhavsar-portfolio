@@ -34,7 +34,7 @@ export function AboutSection() {
             <InfoCard
               icon={<MapPin className="h-4 w-4 text-primary" />}
               label="Location"
-              value="Toronto, Ontario, Canada"
+              value="Ontario, Canada"
             />
             <InfoCard
               icon={<GraduationCap className="h-4 w-4 text-primary" />}

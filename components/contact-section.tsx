@@ -51,7 +51,7 @@ export function ContactSection() {
           <ContactCard
             icon={<MapPin className="h-5 w-5 text-primary" />}
             label="Location"
-            value="Toronto, Ontario, Canada"
+            value="Ontario, Canada"
             href={null}
           />
         </div>

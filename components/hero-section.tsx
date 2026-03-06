@@ -57,7 +57,7 @@ export function HeroSection() {
         <p className="mx-auto mb-10 max-w-2xl text-balance leading-relaxed text-muted-foreground">
           ITIL v4 & MS-900 certified IT Service Desk Analyst with 3+ years of Tier 1-2
           support experience delivering reliable end-user, application, and endpoint support
-          across Windows, macOS, and mobile environments. Based in Toronto, Canada.
+          across Windows, macOS, and mobile environments. Based in Ontario, Canada.
         </p>
 
         <div className="mb-12 flex items-center justify-center gap-4">

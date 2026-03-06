@@ -5,20 +5,6 @@ import { SectionHeading } from "@/components/about-section"
 
 const experiences = [
   {
-    company: "Luman AI",
-    role: "Technical Advisor",
-    period: "May 2025 - Present",
-    location: "United States - Remote",
-    type: "Advisory",
-    description: [
-      "Collaborate with the founding team to refine technical strategy and product architecture for the Luman AI platform.",
-      "Provide ongoing feedback on system scalability, cloud infrastructure, and deployment workflows.",
-      "Assist in defining technical requirements and evaluating new features for the product roadmap.",
-      "Conduct testing and validation of AI-driven workflows to ensure reliability and performance.",
-    ],
-    skills: ["Technical Architecture", "Change Management", "Cloud Infrastructure", "AI Workflows"],
-  },
-  {
     company: "University of Guelph",
     role: "IT Service Desk Analyst",
     period: "Sep 2024 - Apr 2025",
